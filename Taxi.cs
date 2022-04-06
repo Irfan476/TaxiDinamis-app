@@ -14,16 +14,16 @@ namespace Taxi
 
         public void TaxiInfo()
         {
-            Console.WriteLine("Driver name : {0}", Name);
+            Console.WriteLine("Driver name\t: {0}", Name);
             if (Duty == true)
             {
-                Console.WriteLine("On duty : yes");
+                Console.WriteLine("On duty\t: yes");
             }
             else
             {
-                Console.WriteLine("On duty : no");
+                Console.WriteLine("On duty\t: no");
             }
-            Console.WriteLine("Number of passenger : {0}", Numberpass);
+            Console.WriteLine("Number of passenger\t: {0}", Numberpass);
         }
 
         public void PickupPassenger()
